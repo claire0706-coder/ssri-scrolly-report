@@ -9,10 +9,6 @@ const spreads = [
       <p class="chapter">Discussion goal</p>
       <h2>我們要一起釐清什麼？</h2>
       <p>這個病例會帶我們討論：憂鬱症狀如何形成、如何鑑別診斷、抗憂鬱藥如何選擇，以及當副作用與停藥疑慮出現時，臨床該如何接住病人。</p>
-      <div class="prompt-card">
-        <strong>主席開場提醒</strong>
-        先聽故事，再整理問題。今天的重點不是背答案，而是練習臨床推理。
-      </div>
     `
   },
   {
@@ -122,6 +118,49 @@ const spreads = [
       <div class="prompt-card">
         <strong>教案問題節點：問題四</strong>
         以林小姐自行停藥作為切入：SSRI 常見副作用為何？如何處置？抗憂鬱藥是否有成癮風險？
+      </div>
+    `
+  },
+  {
+    left: `
+      <p class="chapter">Scene 6</p>
+      <h2>治療反應有限，風險升高</h2>
+      <p>經衛教後，林小姐服藥遵囑性改善，但 sertraline 治療滿六週後症狀改善有限。醫師改用 duloxetine，四週後效果仍不佳，她的無助與無望感持續惡化。</p>
+      <p class="big-quote">「什麼都無法改變，根本不值得活著。」</p>
+    `,
+    right: `
+      <p class="chapter">Emergency turn</p>
+      <h2>過量服藥後的急診線索</h2>
+      <ul class="clue-list">
+        <li>吞下多顆 duloxetine 後意識不清</li>
+        <li>體溫 39.2°C</li>
+        <li>肌肉僵硬、心跳加快、血壓升高</li>
+        <li>地面散落空藥品包裝</li>
+      </ul>
+      <div class="prompt-card">
+        <strong>教案問題節點：問題五</strong>
+        病人發生了什麼事？此時要如何鑑別診斷原因，並給予急性處理？
+      </div>
+    `
+  },
+  {
+    left: `
+      <p class="chapter">Scene 7</p>
+      <h2>急性處理後，故事還沒結束</h2>
+      <p>急診支持性治療後，林小姐生命徵象穩定、意識恢復，但情緒仍顯著低落，持續出現自責、羞愧與無望感。她對自殺行為後悔，卻仍認為自己是家人的負擔。</p>
+    `,
+    right: `
+      <p class="chapter">Treatment resistance</p>
+      <h2>下一步治療要重新盤點</h2>
+      <ul class="clue-list">
+        <li>已接受 sertraline 足量足療程</li>
+        <li>已接受 duloxetine 足量足療程</li>
+        <li>兩種一線抗憂鬱藥療效皆有限</li>
+        <li>症狀惡化並導致嚴重自殺企圖</li>
+      </ul>
+      <div class="prompt-card">
+        <strong>教案問題節點：問題六（選修）</strong>
+        若符合 treatment-resistant depression，後續治療可以如何安排？住院、藥物增強與非藥物治療各扮演什麼角色？
       </div>
     `
   }
