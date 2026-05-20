@@ -32,8 +32,8 @@ const spreads = [
         <li>強烈自責、無價值感</li>
       </ul>
       <div class="prompt-card">
-        <strong>可以問同學</strong>
-        這些症狀符合憂鬱症的哪些核心表現？
+        <strong>教案問題節點：問題一</strong>
+        先整理憂鬱症狀，再回到鑑別診斷：還需要詢問哪些病史或安排哪些檢查？
       </div>
     `
   },
@@ -52,8 +52,8 @@ const spreads = [
         <li>疲憊、無力、精神動作變慢的主觀感受</li>
       </ul>
       <div class="prompt-card">
-        <strong>引導問題</strong>
-        這些身體症狀如何幫助我們判斷嚴重度？
+        <strong>教案問題節點：問題一</strong>
+        身體症狀可能來自憂鬱本身，也可能來自內分泌、營養或神經系統問題；討論時先列出要排除的原因。
       </div>
     `
   },
@@ -73,8 +73,8 @@ const spreads = [
         <li>孩子是目前重要保護因子</li>
       </ul>
       <div class="prompt-card">
-        <strong>可以問同學</strong>
-        還需要追問哪些自殺風險評估項目？
+        <strong>教案問題節點：安全評估</strong>
+        在進入藥物選擇前，先確認自殺意念、計畫、可近性、過去嘗試、保護因子與是否需提高照護層級。
       </div>
     `
   },
@@ -94,8 +94,8 @@ const spreads = [
         <li>非典型憂鬱特徵與共病焦慮</li>
       </ul>
       <div class="prompt-card">
-        <strong>引導問題</strong>
-        為什麼在給抗憂鬱藥前，一定要問躁症病史？
+        <strong>教案問題節點：問題一到問題二</strong>
+        排除 bipolar depression 後，再討論抗憂鬱劑選擇；特別注意肝功能、睡眠、食慾與自殺風險。
       </div>
     `
   },
@@ -120,8 +120,8 @@ const spreads = [
         <span>如果要停藥，怎麼安全減量？</span>
       </div>
       <div class="prompt-card">
-        <strong>主席銜接句</strong>
-        接下來我們就從林小姐的服藥經驗出發，討論 SSRI 副作用、衛教與停藥。
+        <strong>教案問題節點：問題四</strong>
+        以林小姐自行停藥作為切入：SSRI 常見副作用為何？如何處置？抗憂鬱藥是否有成癮風險？
       </div>
     `
   }
