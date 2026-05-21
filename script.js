@@ -25,7 +25,7 @@ const revealItems = [...document.querySelectorAll(".reveal")];
 const taperButtons = [...document.querySelectorAll(".taper-button")];
 const taperBars = [...document.querySelectorAll(".taper-viz div")];
 const taperPatterns = {
-  linear: ["100%", "75%", "56%", "42%", "32%", "24%", "18%", "12%"],
+  linear: ["100%", "75%", "50%", "25%", "0%", "0%", "0%", "0%"],
   hyperbolic: ["100%", "50%", "25%", "13%", "7%", "4%", "2%", "1%"]
 };
 

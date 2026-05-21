@@ -342,17 +342,18 @@
           <div class="taper-viz" aria-label="SSRI tapering diagram">
             <div style="--h: 100%"><span>100%</span></div>
             <div style="--h: 75%"><span>75%</span></div>
-            <div style="--h: 56%"><span>56%</span></div>
-            <div style="--h: 42%"><span>42%</span></div>
-            <div style="--h: 32%"><span>32%</span></div>
-            <div style="--h: 24%"><span>24%</span></div>
-            <div style="--h: 18%"><span>18%</span></div>
-            <div style="--h: 12%"><span>12%</span></div>
+            <div style="--h: 50%"><span>50%</span></div>
+            <div style="--h: 25%"><span>25%</span></div>
+            <div style="--h: 0%"><span>0%</span></div>
+            <div style="--h: 0%"><span>0%</span></div>
+            <div style="--h: 0%"><span>0%</span></div>
+            <div style="--h: 0%"><span>0%</span></div>
           </div>
           <ul>
             <li>Minimum tapering is often at least 14 days, but long-term users frequently need weeks to months.</li>
             <li>Short 2-4 week tapers may be poorly tolerated and may offer little advantage over abrupt stopping for some patients.</li>
-            <li>Practical options include reducing by about 25% every 4 weeks, or 12.5% every 2 weeks, then slowing near the end.</li>
+            <li>Linear tapering is shown here as equal dose steps, for example 100 → 75 → 50 → 25 → 0%.</li>
+            <li>Practical tapering often starts with simple step reductions, but many patients need smaller and smaller steps near the end.</li>
             <li>Paroxetine and venlafaxine have higher discontinuation risk because of shorter half-lives.</li>
             <li>If symptoms emerge, hold the dose or return to the previous dose, then taper more slowly.</li>
           </ul>
@@ -370,20 +371,20 @@
           </figcaption>
           <div class="figure-panels" aria-label="Redrawn comparison of linear and hyperbolic SSRI tapering">
             <div class="figure-panel">
-              <h3>Linear dose taper</h3>
+              <h3>Linear dose taper: equal mg steps</h3>
               <img
                 src="lancet-linear-taper.png"
                 alt="Redrawn figure showing striatal SERT occupancy rising steeply at low doses and flattening at higher doses, illustrating linear taper points."
               >
-              <p>Example from the paper: fixed 5 mg citalopram reductions can shift from small SERT inhibition changes early to a very large final change from 5 mg to 0 mg.</p>
+              <p>Linear here means equal dose steps on the x-axis, such as 20 → 15 → 10 → 5 → 0 mg. The uneven vertical drops are the problem: biological effect changes most near zero.</p>
             </div>
             <div class="figure-panel">
-              <h3>Hyperbolic taper</h3>
+              <h3>Hyperbolic taper: equal effect steps</h3>
               <img
                 src="lancet-hyperbolic-taper.png"
                 alt="Redrawn figure showing hyperbolic dose reductions mapped to steadier changes in striatal SERT occupancy."
               >
-              <p>Hyperbolic tapering reduces the dose by smaller and smaller amounts, aiming for more even reductions in biological effect.</p>
+              <p>Hyperbolic tapering uses unequal dose steps that become smaller near zero, aiming for more even reductions in SERT occupancy and biological effect.</p>
             </div>
           </div>
           <p class="figure-source">
