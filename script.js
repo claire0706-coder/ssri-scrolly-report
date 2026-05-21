@@ -24,6 +24,8 @@ const progress = document.querySelector(".scroll-progress");
 const revealItems = [...document.querySelectorAll(".reveal")];
 const taperButtons = [...document.querySelectorAll(".taper-button")];
 const taperBars = [...document.querySelectorAll(".taper-viz div")];
+const quizOptions = [...document.querySelectorAll(".quiz-option")];
+const quizFeedback = document.querySelector("#quiz-feedback");
 const taperPatterns = {
   linear: ["100%", "75%", "50%", "25%", "0%", "0%", "0%", "0%"],
   hyperbolic: ["100%", "50%", "25%", "13%", "7%", "4%", "2%", "1%"]
@@ -122,4 +124,20 @@ function setTaper(type) {
 
 taperButtons.forEach((button) => {
   button.addEventListener("click", () => setTaper(button.dataset.taper));
+});
+
+quizOptions.forEach((option) => {
+  option.addEventListener("click", () => {
+    quizOptions.forEach((item) => {
+      item.classList.remove("is-correct", "is-wrong");
+      item.setAttribute("aria-checked", "false");
+    });
+    option.setAttribute("aria-checked", "true");
+    const isCorrect = option.dataset.correct === "true";
+    option.classList.add(isCorrect ? "is-correct" : "is-wrong");
+    quizOptions
+      .filter((item) => item.dataset.correct === "true")
+      .forEach((item) => item.classList.add("is-correct"));
+    if (quizFeedback) quizFeedback.hidden = false;
+  });
 });
